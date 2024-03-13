@@ -1,0 +1,14 @@
+.container {
+  height: 40px;
+  width: 70%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+  font-size: large;
+  font-family: SANS-SERIF;
+}

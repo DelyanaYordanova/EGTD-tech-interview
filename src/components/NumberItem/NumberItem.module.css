@@ -1,0 +1,35 @@
+.numberItem {
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto;
+  font-size: large;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 50%;
+  border: none;
+}
+
+.numberItem:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: blanchedalmond;
+  border: 1px solid red;
+}
+
+.inactive {
+  background-color: lightgray;
+  color: gray;
+}
+
+.selected {
+  background-color: firebrick;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 600px) {
+  .fieldItem {
+    font-size: x-large;
+  }
+}

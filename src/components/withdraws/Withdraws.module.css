@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.button {
+  width: 20%;
+  height: 100%;
+  font-size: xx-large;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.textBox {
+  font-size: xx-large;
+  padding: 5px;
+  width: 40%;
+  text-align: center;
+  margin: 0 3%;
+  border-radius: 5px;
+  border: none;
+}
+
+.label {
+  text-align: center;
+  font-size: medium;
+  padding: 0 5%;
+}

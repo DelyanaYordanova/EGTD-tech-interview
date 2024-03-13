@@ -1,0 +1,46 @@
+.numbersContainer {
+  display: grid;
+  width: 350px;
+  height: 110px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  margin: 10px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.button:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.label {
+  text-align: center;
+  font-size: medium;
+  padding: 5px;
+}
+
+@media screen and (min-width: 680px) {
+  .numbersContainer {
+    display: grid;
+    width: 90%;
+    height: 45px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+    margin: 10px;
+  }
+}

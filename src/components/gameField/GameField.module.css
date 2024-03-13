@@ -1,0 +1,8 @@
+.fieldContainer {
+  display: grid;
+  min-width: 380px;
+  max-width:800px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, auto);
+  gap: 2px;
+}

@@ -1,0 +1,16 @@
+.clock {
+  display: flex;
+  height: 40px;
+  width: 70%;
+  margin: 5%;
+  border: 2px solid red;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  text-align: center;
+  font-size: medium;
+  padding: 0 5%;
+}
