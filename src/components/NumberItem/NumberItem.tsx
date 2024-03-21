@@ -20,7 +20,6 @@ const NumberItem = memo(({ id, numberState }: Props) => {
   };
 
   const handleClick = () => onClick(id);
-  console.log("Number ", id, "renders");
 
   const numberStyle = `${styles.numberItem} ${styles[numberState]}`;
   const disabled = numberState === NumberState.Inactive;
